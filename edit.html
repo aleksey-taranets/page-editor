@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8>
+    <title>Edit</title>
+    <link rel="stylesheet" type="text/css" href="css/iframe.css" />
+    <link type="text/css" rel="stylesheet" href="libs/qtip2/jquery.qtip.css" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="libs/noty/js/noty/packaged/jquery.noty.packaged.min.js"></script>
+    <script type="text/javascript" src="libs/qtip2/jquery.qtip.min.js"></script>
+    <script src="libs/ckeditor/ckeditor.js"></script>
+    <script>
+        // локализация
+        var messages = {
+            iFrameLoading : "Project loading"
+        }
+    </script>
+    <script src="js/jquery.edit.js"></script>
+</head>
+<body>
+    <div id="edit-container">
+        <div class="toolbar">
+            <h1>Заголовок проекта</h1>
+            <a href="#" class="button" id="save"><i class="fa fa-floppy-o"></i> Сохранить</a>
+        </div>
+        <iframe id="editIFrame" src="index.html"></iframe>
+        <div id="overlay"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LessManager">
+    <option name="lessProfileMap">
+      <map>
+        <entry key="0">
+          <value>
+            <LessProfile>
+              <option name="cssDirectories">
+                <list>
+                  <CssDirectory>
+                    <option name="path" value="D:\WebServers\home\yura\www\css" />
+                  </CssDirectory>
+                </list>
+              </option>
+              <option name="excludePattern" value="all.css" />
+              <option name="id" value="0" />
+              <option name="includePattern" value="all.less" />
+              <option name="lessDirPath" value="D:\WebServers\home\yura\www\css\less" />
+              <option name="name" value="LESS" />
+            </LessProfile>
+          </value>
+        </entry>
+        <entry key="1">
+          <value>
+            <LessProfile>
+              <option name="cssDirectories">
+                <list>
+                  <CssDirectory>
+                    <option name="path" value="D:\WebServers\home\yura\www\css" />
+                  </CssDirectory>
+                </list>
+              </option>
+              <option name="excludePattern" value="iframe.css" />
+              <option name="id" value="1" />
+              <option name="includePattern" value="iframe.less" />
+              <option name="lessDirPath" value="D:\WebServers\home\yura\www\css\less" />
+              <option name="name" value="Iframe" />
+            </LessProfile>
+          </value>
+        </entry>
+        <entry key="2">
+          <value>
+            <LessProfile>
+              <option name="cssDirectories">
+                <list>
+                  <CssDirectory>
+                    <option name="path" value="D:\WebServers\home\yura\www\css" />
+                  </CssDirectory>
+                </list>
+              </option>
+              <option name="excludePattern" value="edit.css" />
+              <option name="id" value="2" />
+              <option name="includePattern" value="edit.less" />
+              <option name="lessDirPath" value="D:\WebServers\home\yura\www\css\less" />
+              <option name="name" value="edit" />
+            </LessProfile>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
+

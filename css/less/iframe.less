@@ -1,0 +1,83 @@
+@import "variables.less";
+@import "3L.less";
+
+// normalize
+.normalize();
+// reset
+.reset();
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    font: @defaultFont;
+}
+#edit-container {
+    height: 100%;
+    padding-top: @toolbarHeight;
+    position: relative;
+    overflow: hidden;
+    .box-sizing(border-box);
+
+    .toolbar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: @toolbarHeight;
+        overflow: hidden;
+        background: #292929;
+        color: #fff;
+        padding: 9px 20px 0;
+        .box-sizing(border-box);
+        .box-shadow( 0px 1px 10px 0px rgba(50, 50, 50, 0.8));
+
+        h1 {
+            float: left;
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        .button {
+            text-decoration: none;
+            float: right;
+            font-size: 14px;
+            color: #ffffff;
+            padding: 6px 17px;
+            border-radius: 0px;
+            border: 1px solid #b24400;
+            .border-radius(5px);
+            .box-shadow(0px 1px 1px rgba(246,197,127,0.2), inset 0px 0px 1px rgba(246,197,127,1));
+            .gradient(#ee8b00 ,#e15e00);
+            text-shadow:
+                0px -1px 0px rgba(000,000,000,0.4),
+                0px 1px 0px rgba(255,255,255,0.3);
+        }
+
+    }
+
+    iframe {
+        height: 100%;
+        width: 100%;
+    }
+}
+#overlay {
+    position: absolute;
+    top: @toolbarHeight;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.7);
+}
+
+#noty_top_layout_container {
+    width: 200px !important;
+    left: 50% !important;
+    margin: 0 0 0 -100px !important;
+}
+.qtip-dark {
+    a {
+        color: #fff !important;
+    }
+}
